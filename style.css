@@ -1,16 +1,144 @@
 body {
-  font-family: 'Rokkitt', serif;
-  background-color: #E7E7E7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   line-height: 1.35;
+}
+
+strong {
+  font-weight: 400;
 }
 
 p, div, span {
   font-size: 22px;
 }
+
+.intro {
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #E7E9F5;
+  height: 70vh;
+}
+  .intro .background-image, .intro .background-color, .intro .cta {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  .intro .message {
+    height: 70vh;
+  }
+  .intro .cta {
+    color: #FFF;
+    padding: 12vh 10vw 0 10vw;
+    z-index: 2;
+  }
+  .intro .background-color {
+    background-color: #3E50B4;
+    opacity: 0.9;
+    z-index: 1;
+  }
+  .intro .background-image {
+    background: url('images/landing-background.jpg');
+    background-size: cover;
+    z-index: 0;
+  }
+  .intro h1 {
+    font-size: 6vmin;
+    font-weight: 100; 
+  }
+  .intro .message p {
+    margin-top: 11vh;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 3em;
+  }
+    .message a {
+      color: #FF9700;
+      text-decoration: none;
+    }
+    .message a:hover {
+      text-decoration: underline;
+    }
+    .message a:active {
+      margin-top: -2px;
+    }
+
+.intro .services {
+  /*height: 66vh;*/
+  padding: 20vh 30px;
+}
+  .services .service {
+    transition: 1s cubic-bezier(1, -1, 0, 2);
+  }
+  .services .caption {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 70px;
+    opacity: 0;
+  }
+  .services .bss-show .caption {
+    opacity: 1;
+  }
+  @media (max-width:1200px) {
+    .intro .services {
+      padding: 10vh 30px;
+      height: auto;
+      background-color: #E7E9F5;
+      margin-bottom: 70px;
+    }
+  }
+
+.services .service .image {
+  width: 100%;
+  opacity: 0;
+  
+}
+  .services .bss-show .image {
+    opacity: 1;
+  }
+  .services .service-ia .image {
+    background: url('images/information-architecture.svg') center top no-repeat;
+    height: 15vh;
+  }
+  .services .service-design .image {
+    background: url('images/design.svg') center top no-repeat;
+    height: 15vh;
+  }
+  .services .service-proto .image {
+    background: url('images/proto.svg') center top no-repeat;
+    height: 17vh;
+  }
+
+.testimonials {
+  margin: 15vh auto;
+}
+  .testimonials .picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background: url('images/richard.jpg') center center no-repeat;
+    background-size: cover;
+    margin-bottom: -64px;
+  }
+  .testimonials p {
+    font-family: Sura, serif;
+  }
+  .testimonials small {
+    font-size: 0.7em;
+  }
+
+
+
+
+
 
 nav.navbar.navbar-default {
   height: 64px;
@@ -43,11 +171,6 @@ nav.navbar.navbar-default {
   background-color: #fff;
   border-radius: 2px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.22);
-}
-
-.intro {
-  margin-bottom: 90px;
-  margin-top: 100px;
 }
 
 .skills {
