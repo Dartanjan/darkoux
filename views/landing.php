@@ -3,30 +3,16 @@
 	<div class="container-fluid intro">
 		<div class="row">
 			<!-- Delightful message -->
-			<div class="col-xs-12 col-lg-8 message">
-				<div class="cta">
-					<h1><strong>Delight</strong> your customers with usable, engaging product design.</h1>
-					<p>I help web startups do that. <a href="#process">See how.</a></p>
+			<div class="col-xs-12 message">
+				<div class="row">
+				<div class="col-xs-12 col-lg-10 col-lg-offset-1">
+					<div class="cta">
+						<h1>Make your customers awesome.</h1>
+						<p>I help tech startups sort the mess out of poor product design and release updates that convert, delight and engage their customers.</p>
+					</div>
 				</div>
 				<div class="background-color"></div>
 				<div class="background-image"></div>
-			</div>
-			
-			<!-- Carousel -->
-			<div class="col-xs-12 col-lg-4 services">
-				<div id="slideshow-wrap" class="bss-slides">
-					<figure class="service service-ia">
-						<div class="caption">INFORMATION ARCHITECTURE</div>
-						<div class="image"></div>
-					</figure>
-					<figure class="service service-design">
-						<div class="caption">SKETCHING &amp; DESIGN</div>
-						<div class="image"></div>
-					</figure>
-					<figure class="service service-proto">
-						<div class="caption">CODE PROTOTYPING</div>
-						<div class="image"></div>
-					</figure>
 				</div>
 			</div>
 		</div>
@@ -44,11 +30,11 @@
 	</div><!-- /Lean  -->
 
 	<!-- Gallery -->
-	<div class="container gallery">
+	<div class="container gallery showme-wrap" data-treshold="200" data-delay="150">
 		<div class="row">
 			<!-- <h1>Projects</h1> -->
 			<div class="projects-wrap">
-				<div class="project col-xs-12 col-md-4">
+				<div class="project col-xs-12 col-md-4 showme">
 					<figure class="card">
 						<a href="/?project=citizenshipper"><img src="/projects/citizenshipper/cs09.png" alt="CitizenShipper"></a>
 						<figcaption><h3><a href="/?project=citizenshipper">CitizenShipper</a> <small>IA, Prototyping, UI Design, FE Dev</small></h3></figcaption>

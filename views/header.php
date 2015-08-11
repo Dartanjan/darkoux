@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Darko Stanimirovic | UX designer with web development skills</title>
 	<link rel="stylesheet" href="/vendors/bootstrap-3.3.4-dist/css/bootstrap.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400|Sura:400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300,400|Sura:400|Eczar:500' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/style.css">
 	<link rel="stylesheet" href="/css/slideshow.css">
 </head>
