@@ -1,10 +1,9 @@
 var Slideshow;
 
-window.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
 
-  /*Slideshow = makeBSS('slideshow-wrap', {
-    auto: { speed: 4200 },
-    controls: false
-  });*/
+	[].forEach.call(document.getElementsByClassName('icon'), function(icon) {
+		icon.classList.add('opacity-visible');
+	});
 
 }, false);

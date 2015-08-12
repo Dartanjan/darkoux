@@ -17,11 +17,15 @@ p, div, span {
   font-size: 22px;
 }
 
+::-moz-selection { background: yellow; }
+::selection { background: yellow; }
+
 .intro {
   margin-bottom: 0;
   margin-top: 0;
   padding: 0;
   margin: 0 15px 0;
+  cursor: default;
 }
   .intro .background-image, .intro .background-color {
     position: absolute;
@@ -91,6 +95,57 @@ p, div, span {
       font-weight: 400;
       margin-bottom: 2vw;
     }
+  }
+
+ul.stack {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 70px;
+}
+  .stack li {
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    opacity: 0;
+  }
+  li.research {
+    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-research-yellow-96px.png');
+    transition-delay: 0s;
+  }
+  li.persona {
+    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-persona-yellow-96px.png');
+    transition-delay: 0.1s;
+  }
+  .user-flows {
+    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-user-flows-yellow-96px.png');
+    transition-delay: 0.2s;
+  }
+  .sketches {
+    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-sketches-yellow-96px.png');
+    transition-delay: 0.3s;
+  }
+  .wireframes {
+    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-wireframes-yellow-96px.png');
+    transition-delay: 0.4s;
+  }
+  .proto {
+    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-prototypes-yellow-96px.png');
+    transition-delay: 0.5s;
+  }
+  .ui-design {
+    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-ui-design-yellow-96px.png');
+    transition-delay: 0.6s;
+  }
+  .opacity-visible {
+    opacity: 1 !important;
+  }
+  ul.stack li {
+    float: left;
+    margin: 0 70px 0 0;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 48px 48px;
+    padding: 30px 0 30px 60px;
   }
 
 .intro .services {

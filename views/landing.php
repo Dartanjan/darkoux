@@ -4,16 +4,23 @@
 		<div class="row">
 			<!-- Delightful message -->
 			<div class="col-xs-12 message">
-				<div class="row">
 				<div class="col-xs-12 col-lg-10 col-lg-offset-1">
 					<div class="cta">
 						<h1>Make your customers awesome.</h1>
-						<p>I help tech startups sort the mess out of poor product design and release updates that convert, delight and engage their customers.</p>
+						<p>I work with tech startups to sort the mess out of poor product design and release updates that matter &ndash; to customers and to business.</p>
+						<ul class="stack">
+							<li class="icon research">Research</li>
+							<li class="icon persona">Proto Persona</li>
+							<li class="icon user-flows">User Flows</li>
+							<li class="icon sketches">Sketches</li>
+							<li class="icon wireframes">Wireframes</li>
+							<li class="icon proto">Code Prototypes</li>
+							<li class="icon ui-design">UI Design</li>
+						</ul>
 					</div>
 				</div>
 				<div class="background-color"></div>
 				<div class="background-image"></div>
-				</div>
 			</div>
 		</div>
 	</div><!-- /Header  -->
