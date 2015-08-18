@@ -314,17 +314,21 @@ nav.navbar.navbar-default {
   .big-button {
     display: inline-block;
     margin-top: 30px;
-    background-color: #848484;
-    padding: 7px 16px;
+    background-color: #3E50B4;
+    padding: 9px 26px;
     border-radius: 2px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     color: #FFF;
-  }
+  
+    font-size: 20px;
+    margin-right: 10px;
+}
     .big-button:hover, .big-button:focus {
       text-decoration: none;
-      background-color: #949494;
+      background-color: #6575CE;
       color: white;
-    }
+    
+}
 
 footer {
   margin-bottom: 50px;
@@ -446,4 +450,8 @@ nav.navbar.navbar-default a:hover {
 
 .projects-wrap .card a {
     color: #3E50B4;
+}
+
+.big-button:focus {
+    outline: 5px auto #51B328;
 }
