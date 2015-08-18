@@ -45,32 +45,45 @@
 
 	<!-- Screenshots -->
 	<div class="container-fluid project-screenshots text-center">
-		<h2>Screenshots</h2>
+		<h2>Screenshots &amp; Deliverables</h2>
 		<figure>
 			<img src="/projects/citizenshipper/cs03.jpg" alt="">
-			<figcaption>Various early-stage sketches.</figcaption>
+			<figcaption>
+				<p>Several areas of my work required early-stage, concept sketches which easily communicated UX direction with the client. Top four sketches are landing page variations, while bottom set is a dashboard screens for finding shipments and creating custome routes.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/citizenshipper/cs06.png" alt="">
-			<figcaption>I created prototypes for over 25 pages. Unfortunately, personas never got the time they deserve.</figcaption>
+			<figcaption>
+				<p>First round of proto-personas. The idea with proto-personas is to lay out what we think we know about specific customer segments. This way, in the design process, we can visualize the end-user. Are they going to be tolerant to complex forms? How should we communicate to them? Besides these early (unfinished) personas, I created over 25 pages of interactive prototypes in Axure RP. This allowed the client and his development team to give estimates, comments and ideas.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/citizenshipper/cs02.png" alt="">
-			<figcaption>Before and After, Driver Dashboard. (Wireframe that got used on the site without much UI design.)</figcaption>
+			<figcaption>
+				<p>On the left is driver dashboard before the redesign. Issues I attempted to solve are poor information structure, poor assessibility over hand-held devices and low interactivity of the main screen. I envisioned a dashboard that shows shipments right there, allowing you to filter and navigate without the need to load different pages. Endless scroll loads all the shipments, while each item gives you enough information to decide whether you want to open it up for more details. The UI never got a proper visual design round, so what went live was sort of my wireframe with a few touches of color.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/citizenshipper/cs04.png" alt="">
-			<figcaption>Revamped shipper dashboard. Driver quotes expand to show additional info and to reveal chat area.</figcaption>
+			<figcaption>
+				<p>Revamped shipper dashboard. Driver quotes expand to show additional info and to reveal chat area.</p>
+				<p>The insight which lead this design is that shippers (people with packages) usually speak with multiple drivers at the same time. They care about driver profiles, so I included a brief overview right inside the card: Name, rating, recent reviews, number of completed shipment. Another problem shippers sometimes have is that the $ quote doesn't mean much. Is $255 a lot for this route and my package? Section on the left tells you how the quote fairs against our algorithm.</p>
+				<p>In other words, quote card gives you brief, but useful overview of the driver and his quote, and gives you chat right there, all in one place. Layout is responsive, which was a delicate challenge.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/citizenshipper/cs05.jpg" alt="">
-			<figcaption>I rewrote entire payment form HTML and CSS from scratch, to take back control of every pixel.</figcaption>
+			<figcaption>
+				<p>I wrote entire HTML, CSS and Javascript code for the payment form, to get the pixels exactly as I wanted them. There were no wireframes or .psd mockups &ndash; I designed all the elements right in the browser. I also wrote JS code for small interactions, like when you enter 16 digits in the CC number field, it moves focus to the next input, and so on.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/citizenshipper/cs07.jpg" alt="">
-			<figcaption>I created wireframes and managed the project of complete revamp of marketing site/landing pages.</figcaption>
+			<figcaption>
+				<p>Another big project was a complete revamp of the marketing site. Focus was on stressing trust and security through clear, concise copy, clear explanation of the process and use of trust symbols. Other improvements were with typography, new visual language and clear call to action. On this project, I lead both visual design and web development teams and delivered a number of git commits myself.</p>
+				<p>Further optimizations were aimed at testing different trust symbols to increase conversions.</p>
+			</figcaption>
 		</figure>
 	</div><!-- /Screenshots  -->
 
-
-	

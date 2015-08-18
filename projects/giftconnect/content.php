@@ -41,27 +41,39 @@
 		<h2>Screenshots</h2>
 		<figure>
 			<img src="/projects/giftconnect/gc01.jpg" alt="Gift Connect (at this time, AllStar Admin) wireframe.">
-			<figcaption>Dashboard that onboards you into creating your first promotion.</figcaption>
+			<figcaption>
+				<p>Dashboard that onboards you into creating your first promotion.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/giftconnect/gc02.jpg" alt="Gift Connect (at this time, AllStar Admin) wireframe.">
-			<figcaption>One of the steps in the wizard showing optional sub-content.</figcaption>
+			<figcaption>
+				<p>One of the steps in the wizard showing optional sub-content.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/giftconnect/gc03.jpg" alt="Gift Connect (at this time, AllStar Admin) wireframe.">
-			<figcaption>Managing codes: status, search, two creation options, pagination.</figcaption>
+			<figcaption>
+				<p>Managing codes: status, search, two creation options, pagination.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/giftconnect/gc04.jpg" alt="Gift Connect (at this time, AllStar Admin) wireframe.">
-			<figcaption>Interactive responsive template editor. By far the most complex area of the app.</figcaption>
+			<figcaption>
+				<p>Interactive responsive template editor. By far the most complex area of the app.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/giftconnect/gc05.jpg" alt="Gift Connect (at this time, AllStar Admin) wireframe.">
-			<figcaption>Grid-view of cards. After so many iterations with PMs and the client, this could've been more optimal.</figcaption>
+			<figcaption>
+				<p>Grid-view of cards. After so many iterations with PMs and the client, this could've been more optimal.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/giftconnect/gc06.jpg" alt="Gift Connect (at this time, AllStar Admin) wireframe.">
-			<figcaption>Basic reports area.</figcaption>
+			<figcaption>
+				<p>Basic reports area.</p>
+			</figcaption>
 		</figure>
 	</div><!-- /Screenshots  -->
 

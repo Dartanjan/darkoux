@@ -9,13 +9,13 @@
 						<h1>Make your customers awesome.</h1>
 						<p>I work with tech startups to sort the mess out of poor product design and release updates that matter &ndash; to customers and to business.</p>
 						<ul class="stack">
-							<li class="icon research">Research</li>
-							<li class="icon persona">Proto Persona</li>
-							<li class="icon user-flows">User Flows</li>
-							<li class="icon sketches">Sketches</li>
-							<li class="icon wireframes">Wireframes</li>
-							<li class="icon proto">Code Prototypes</li>
-							<li class="icon ui-design">UI Design</li>
+							<li class="icon research"><span></span>Research</li>
+							<li class="icon persona"><span></span>Proto Persona</li>
+							<li class="icon user-flows"><span></span>User Flows</li>
+							<li class="icon sketches"><span></span>Sketches</li>
+							<li class="icon wireframes"><span></span>Wireframes</li>
+							<li class="icon proto"><span></span>Code Prototypes</li>
+							<li class="icon ui-design"><span></span>UI Design</li>
 						</ul>
 					</div>
 				</div>

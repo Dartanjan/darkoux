@@ -103,50 +103,46 @@ ul.stack {
   margin-top: 70px;
 }
   .stack li {
+    opacity: 0;
+
     transition-property: all;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
-    opacity: 0;
   }
-  li.research {
-    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-research-yellow-96px.png');
-    transition-delay: 0s;
-  }
-  li.persona {
-    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-persona-yellow-96px.png');
-    transition-delay: 0.1s;
-  }
-  .user-flows {
-    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-user-flows-yellow-96px.png');
-    transition-delay: 0.2s;
-  }
-  .sketches {
-    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-sketches-yellow-96px.png');
-    transition-delay: 0.3s;
-  }
-  .wireframes {
-    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-wireframes-yellow-96px.png');
-    transition-delay: 0.4s;
-  }
-  .proto {
-    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-prototypes-yellow-96px.png');
-    transition-delay: 0.5s;
-  }
-  .ui-design {
-    background: url('../images/icons/xhdpi/darko-stanimirovic-ux-ui-design-yellow-96px.png');
-    transition-delay: 0.6s;
-  }
-  .opacity-visible {
-    opacity: 1 !important;
-  }
+  .stack li span {
+    background-image: url('../images/icons/hdpi/spritesheet.png');
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+  
+    margin: 0 12px -16px;
+}
+  .research { transition-delay: 0s; }
+  .research span{ background-position: -96px 0; }
+  .persona { transition-delay: 0.1s; }
+  .persona span { background-position: 0; }
+  .user-flows { transition-delay: 0.2s; }
+  .user-flows span { background-position: -240px 0; }
+  .sketches { transition-delay: 0.3s; }
+  .sketches span { background-position: -144px 0; }
+  .wireframes { transition-delay: 0.4s; }
+  .wireframes span { background-position: -288px 0; }
+  .proto { transition-delay: 0.5s; }
+  .proto span { background-position: -48px 0; }
+  .ui-design { transition-delay: 0.6s; }
+  .ui-design span { background-position: -192px 0; }
+  .opacity-visible { opacity: 1 !important; }
+
   ul.stack li {
     float: left;
-    margin: 0 70px 0 0;
+    margin: 0 70px 0 -25px;
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 48px 48px;
-    padding: 30px 0 30px 60px;
-  }
+    padding-bottom: 50px;
+  
+}
 
 .intro .services {
   /*height: 66vh;*/
@@ -294,10 +290,13 @@ nav.navbar.navbar-default {
     margin-top: 20px;
     margin-bottom: 30px;
   }
-  .project-screenshots figcaption {
+  .project-screenshots figcaption p {
     font-size: 0.8em;
     margin-top: 15px;
-  }
+  
+    font-weight: 400;
+    color: #4A4A4A;
+}
   .project-screenshots img {
     width: 100%;
     max-width: 1280px;
@@ -379,9 +378,9 @@ footer {
 }
   .project-info p {
     font-size: 2em;
-    color: #666;
+    color: #3E50B4;
     font-family: "Josefin Sans", sans-serif;
-    border-left: 6px solid #666;
+    border-left: 6px solid #3E50B4;
     padding-left: 40px;
   }
 
@@ -395,18 +394,18 @@ footer {
 .project-screenshots figcaption 
 {
   position: relative;
-  padding: 7px 13px;
-  background: #FFF;
-  -webkit-border-radius: 6px;
+  padding: 7px 25px 13px;
+  background: #E4E4E4;
+  /* -webkit-border-radius: 6px; */
   -moz-border-radius: 6px;
   border-radius: 2px;
-  max-width: 800px;
+  max-width: 960px;
   margin: 0 auto;
   text-align: left;
-  width: auto;
+  /* width: auto; */
   margin-bottom: 70px;
   margin-top: 26px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.24);
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.24); */
   display: table;
 }
   .project-screenshots figcaption:after 
@@ -414,12 +413,37 @@ footer {
     content: '';
     position: absolute;
     border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: #FFFFFF transparent;
+    border-width: 0px 15px 15px 0px;
+    border-color: #E4E4E4 rgba(0, 0, 0, 0);
     display: block;
     width: 0;
     z-index: 1;
-    top: -10px;
+    top: -13px;
     left: 21px;
-    left: calc(50% - 5px);
+    left: 0;
   }
+
+span.highlight {
+    font-size: 100%;
+    padding: 0;
+    /* border-bottom: 8px solid #FF0; */
+    margin-bottom: 0;
+    color: yellow;
+}
+
+nav.navbar.navbar-default a {
+    color: white;
+    font-weight: 400;
+}
+
+nav.navbar.navbar-default {
+    background-color: #3E50B4;
+}
+
+nav.navbar.navbar-default a:hover {
+    color: white;
+}
+
+.projects-wrap .card a {
+    color: #3E50B4;
+}

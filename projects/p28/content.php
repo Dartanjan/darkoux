@@ -36,15 +36,21 @@
 		</figure>
 		<figure>
 			<img src="/projects/p28/p2802.jpg" alt="">
-			<figcaption>I created prototypes for over 25 pages. Unfortunately, personas never got the time they deserve.</figcaption>
+			<figcaption>
+				<p>I created prototypes for over 25 pages. Unfortunately, personas never got the time they deserve.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/p28/p2803.jpg" alt="">
-			<figcaption>Before and After, Driver Dashboard. (Wireframe that got used on the site without much UI design.)</figcaption>
+			<figcaption>
+				<p>Before and After, Driver Dashboard. (Wireframe that got used on the site without much UI design.)</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/projects/p28/p2804.jpg" alt="">
-			<figcaption>Revamped shipper dashboard. Driver quotes expand to show additional info and to reveal chat area.</figcaption>
+			<figcaption>
+				<p>Revamped shipper dashboard. Driver quotes expand to show additional info and to reveal chat area.</p>
+			</figcaption>
 		</figure>
 	</div><!-- /Screenshots  -->
 
