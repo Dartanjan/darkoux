@@ -7,7 +7,7 @@ $bodyClass = "page-landing";
 
 if(array_key_exists('project', $_GET)) {
 	$project = $_GET['project'];
-	if(! in_array($project, array('citizenshipper', 'giftconnect', 'buzzit', 'fast', 'ourhouse', 'p28'))) {
+	if(! in_array($project, array('citizenshipper', 'giftconnect', 'buzzit', 'fast', 'ourhouse', 'p28', 'soundmap'))) {
 		header("Location: " . SITE_URL);
 		die();
 	}

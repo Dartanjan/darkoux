@@ -55,6 +55,12 @@
 				</div>
 				<div class="project col-xs-12 col-md-4">
 					<figure class="card">
+						<a href="/?project=soundmap"><img src="/projects/soundmap/sm-thumb.jpg" alt="Sound Map of Belgrade"></a>
+						<figcaption><h3><a href="/?project=giftconnect">Sound Map of Belgrade</a> <small>IA, Wireframing, UI Design</small></h3></figcaption>
+					</figure>
+				</div>
+				<div class="project col-xs-12 col-md-4">
+					<figure class="card">
 						<a href="/?project=fast"><img src="/projects/fast/fast01.jpg" alt="Fast messenger"></a>
 						<figcaption><h3><a href="/?project=fast">Fast</a> <small>Personal Project, UI Design, Concept</small></h3></figcaption>
 					</figure>

@@ -171,27 +171,6 @@ ul.stack {
     }
   }
 
-.services .service .image {
-  width: 100%;
-  opacity: 0;
-  
-}
-  .services .bss-show .image {
-    opacity: 1;
-  }
-  .services .service-ia .image {
-    background: url('images/information-architecture.svg') center top no-repeat;
-    height: 15vh;
-  }
-  .services .service-design .image {
-    background: url('images/design.svg') center top no-repeat;
-    height: 15vh;
-  }
-  .services .service-proto .image {
-    background: url('images/proto.svg') center top no-repeat;
-    height: 17vh;
-  }
-
 .testimonials {
   margin: 15vh auto;
 }
@@ -209,11 +188,6 @@ ul.stack {
   .testimonials small {
     font-size: 0.7em;
   }
-
-
-
-
-
 
 nav.navbar.navbar-default {
   height: 64px;
@@ -362,6 +336,9 @@ footer {
   }
   .project-giftconnect .splash {
     background-image: url('/projects/giftconnect/gc04.jpg');
+  }
+  .project-soundmap .splash {
+    background-image: url('/projects/soundmap/sm-splash.jpg');
   }
   .project-buzzit .splash {
     background-image: url('/projects/buzzit/buzz-splash.png');
