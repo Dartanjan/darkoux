@@ -43,7 +43,7 @@
 			<div class="projects-wrap">
 				<div class="project col-xs-12 col-md-4 showme">
 					<figure class="card">
-						<a href="/?project=citizenshipper"><img src="/projects/citizenshipper/cs09.png" alt="CitizenShipper"></a>
+						<a href="/?project=citizenshipper"><img src="/projects/citizenshipper/cs-thumb.jpg" alt="CitizenShipper"></a>
 						<figcaption><h3><a href="/?project=citizenshipper">CitizenShipper</a> <small>IA, Prototyping, UI Design, FE Dev</small></h3></figcaption>
 					</figure>
 				</div>
