@@ -1,0 +1,17 @@
+.testimonials {
+  margin: 15vh auto;
+}
+  .testimonials .picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background: url('images/richard.jpg') center center no-repeat;
+    background-size: cover;
+    margin-bottom: -64px;
+  }
+  .testimonials p {
+    font-family: Sura, serif;
+  }
+  .testimonials small {
+    font-size: 0.7em;
+  }

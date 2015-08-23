@@ -1,0 +1,39 @@
+nav.navbar.navbar-default {
+  height: 64px;
+  border: none;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.22);
+  border-radius: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+  a.navbar-brand {
+    height: 64px;
+    padding-top: 23px;
+  }
+
+@media (max-width: 800px) {
+  body {
+    /*padding: 0 20px;*/
+  }
+  nav.navbar.navbar-default {
+    margin-left: -20px;
+    margin-right: -20px;
+    position: inherit;
+    width: auto;
+  }
+}
+
+nav.navbar.navbar-default a {
+    color: white;
+    font-weight: 400;
+}
+
+nav.navbar.navbar-default {
+    background-color: $primary-color;
+}
+
+nav.navbar.navbar-default a:hover {
+    color: white;
+}

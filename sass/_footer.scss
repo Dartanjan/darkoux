@@ -1,0 +1,15 @@
+footer {
+  margin-bottom: 50px;
+}
+  footer a {
+    margin-right: 15px;
+  }
+  footer a:last-child {
+    margin-right: 0;
+  }
+  footer small {
+    font-size: 0.7em;
+    margin-top: 1em;
+    display: inline-block;
+    color: #808080;
+  }

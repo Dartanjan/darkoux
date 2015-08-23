@@ -1,0 +1,46 @@
+.project figure {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 40px;
+}
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  .project figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: #FFF;
+    width: 100%;
+    padding: 18px 20px;
+  }
+  .project-screenshots {
+    margin-top: 60px;
+  }
+  .project-screenshots figure {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .project-screenshots figcaption p {
+    font-size: 0.8em;
+    margin-top: 15px;
+  
+    font-weight: 400;
+    color: #4A4A4A;
+  }
+  .project-screenshots img {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.22);
+  }
+
+  .projects-wrap .card a {
+      color: $primary-color;
+  }

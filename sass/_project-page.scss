@@ -1,0 +1,80 @@
+.page-project .splash {
+  height: 370px;
+  height: 70vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+  .project-citizenshipper .splash {
+    background-image: url('/projects/citizenshipper/cs-splash.jpg');
+  }
+  .project-giftconnect .splash {
+    background-image: url('/projects/giftconnect/gc04.jpg');
+  }
+  .project-soundmap .splash {
+    background-image: url('/projects/soundmap/sm-splash.jpg');
+  }
+  .project-buzzit .splash {
+    background-image: url('/projects/buzzit/buzz-splash.png');
+  }
+  .project-fast .splash {
+    background-image: url('/projects/fast/fast-splash.jpg');
+  }
+  .project-ourhouse .splash {
+    background-image: url('/projects/ourhouse/oh-splash.jpg');
+  }
+  .project-p28 .splash {
+    background-image: url('/projects/p28/p2802.jpg');
+  }
+
+.project-info {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+  .project-info p {
+    font-size: 2em;
+    color: #3E50B4;
+    font-family: "Josefin Sans", sans-serif;
+    border-left: 6px solid #3E50B4;
+    padding-left: 40px;
+  }
+
+.project-advice {
+  padding: 42px 60px 50px 60px;
+  background-color: #AEAEAE;
+  margin: 110px auto;
+  text-align: center;
+}
+
+.project-screenshots figcaption 
+{
+  position: relative;
+  padding: 7px 25px 13px;
+  background: #E4E4E4;
+  /* -webkit-border-radius: 6px; */
+  -moz-border-radius: 6px;
+  border-radius: 2px;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left;
+  /* width: auto; */
+  margin-bottom: 70px;
+  margin-top: 26px;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.24); */
+  display: table;
+}
+  .project-screenshots figcaption:after 
+  {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0px 15px 15px 0px;
+    border-color: #E4E4E4 rgba(0, 0, 0, 0);
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -13px;
+    left: 21px;
+    left: 0;
+  }

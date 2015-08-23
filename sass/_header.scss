@@ -1,0 +1,150 @@
+.intro {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  margin: 0 15px 0;
+  cursor: default;
+}
+  .intro .background-image, .intro .background-color {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  .intro .cta {
+    color: #FFF;
+    padding: 80px 80px 0 80px;
+    z-index: 2;
+  }
+  .intro .background-color {
+    background-color: $primary-color;
+    opacity: 0.9;
+    z-index: -1;
+  }
+  .intro .background-image {
+    background: url('images/landing-background.jpg');
+    background-size: cover;
+    z-index: -2;
+  }
+  .intro h1 {
+    font-family: 'Eczar', serif;
+    font-weight: 500;
+    font-size: 48px;
+  }
+  .intro .message {
+    padding: 1em 0 3em;
+  }
+  .intro .message p {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 300;
+  }
+    .message a {
+      color: #FF9700;
+      text-decoration: none;
+    }
+    .message a:hover {
+      text-decoration: underline;
+    }
+    .message a:active {
+      margin-top: -2px;
+    }
+
+  @media (max-width:767px) {
+    .intro {
+      height: auto;
+    }
+    .intro h1 {
+      font-size: 10vmin;
+    }
+    .intro .cta {
+      padding: 40px 40px 0;
+    }
+  }
+
+  @media (min-width:1280px) {
+    .intro h1 {
+      font-size: 5vw;
+    }
+    .intro .message p {
+      margin-top: 2vw;
+      font-size: 2vw;
+      font-weight: 400;
+      margin-bottom: 2vw;
+    }
+  }
+
+ul.stack {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 70px;
+}
+  .stack li {
+    opacity: 0;
+
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .stack li span {
+    background-image: url('../images/icons/hdpi/spritesheet.png');
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+  
+    margin: 0 12px -16px;
+}
+  .research { transition-delay: 0s; }
+  .research span{ background-position: -96px 0; }
+  .persona { transition-delay: 0.1s; }
+  .persona span { background-position: 0; }
+  .user-flows { transition-delay: 0.2s; }
+  .user-flows span { background-position: -240px 0; }
+  .sketches { transition-delay: 0.3s; }
+  .sketches span { background-position: -144px 0; }
+  .wireframes { transition-delay: 0.4s; }
+  .wireframes span { background-position: -288px 0; }
+  .proto { transition-delay: 0.5s; }
+  .proto span { background-position: -48px 0; }
+  .ui-design { transition-delay: 0.6s; }
+  .ui-design span { background-position: -192px 0; }
+  .opacity-visible { opacity: 1 !important; }
+
+  ul.stack li {
+    float: left;
+    margin: 0 70px 0 -25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 48px 48px;
+    padding-bottom: 50px;
+  
+}
+
+.intro .services {
+  /*height: 66vh;*/
+  padding: 20vh 30px;
+}
+  .services .service {
+    transition: 1s cubic-bezier(1, -1, 0, 2);
+  }
+  .services .caption {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 70px;
+    opacity: 0;
+  }
+  .services .bss-show .caption {
+    opacity: 1;
+  }
+  @media (max-width:1200px) {
+    .intro .services {
+      padding: 10vh 30px;
+      height: auto;
+      background-color: #E7E9F5;
+      margin-bottom: 70px;
+    }
+  }
