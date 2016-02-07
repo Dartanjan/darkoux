@@ -25,7 +25,7 @@
 		</div>
 	</div><!-- /Header  -->
 
-	<!-- Lean -->
+	<!-- Testimonials -->
 	<div class="container testimonials">
 		<div class="row">
 			<div class="col-md-1 hidden-xs picture"></div>
@@ -34,14 +34,19 @@
 				<small>Richard Obuosy, Founder &amp; CEO, CitizenShipper</small>
 			</div>
 		</div>
-	</div><!-- /Lean  -->
+	</div><!-- /Testimonials  -->
 
 	<!-- Gallery -->
 	<div class="container gallery showme-wrap" data-treshold="200" data-delay="150">
 		<div class="row">
-			<!-- <h1>Projects</h1> -->
 			<div class="projects-wrap">
 				<div class="project col-xs-12 col-md-4 showme">
+					<figure class="card">
+						<a href="/?project=keepy"><img src="/projects/keepy/keepy-thumb.png" alt="Keepy"></a>
+						<figcaption><h3><a href="/?project=keepy">Keepy</a> <small>IA, Prototyping, UI Design</small></h3></figcaption>
+					</figure>
+				</div>
+				<div class="project col-xs-12 col-md-4">
 					<figure class="card">
 						<a href="/?project=citizenshipper"><img src="/projects/citizenshipper/cs-thumb.jpg" alt="CitizenShipper"></a>
 						<figcaption><h3><a href="/?project=citizenshipper">CitizenShipper</a> <small>IA, Prototyping, UI Design, FE Dev</small></h3></figcaption>

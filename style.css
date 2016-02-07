@@ -327,6 +327,9 @@ footer small {
   background-size: cover;
   background-position: center bottom; }
 
+.project-keepy .splash {
+  background-image: url("/projects/keepy/keepy-hero-image.jpg"); }
+
 .project-citizenshipper .splash {
   background-image: url("/projects/citizenshipper/cs-splash.jpg"); }
 

@@ -1,13 +1,23 @@
 <?php
 
-const SITE_URL = "http://ux.darkostanimirovic.com/";
+const SITE_URL = "http://darkoux.com/";
 const SITE_ROOT = __DIR__;
+const PROJECTS = array(
+	'keepy',
+	'citizenshipper', 
+	'giftconnect', 
+	'buzzit', 
+	'fast', 
+	'ourhouse', 
+	'p28', 
+	'soundmap'
+);
 
 $bodyClass = "page-landing";
 
 if(array_key_exists('project', $_GET)) {
 	$project = $_GET['project'];
-	if(! in_array($project, array('citizenshipper', 'giftconnect', 'buzzit', 'fast', 'ourhouse', 'p28', 'soundmap'))) {
+	if(! in_array($project, PROJECTS)) {
 		header("Location: " . SITE_URL);
 		die();
 	}
