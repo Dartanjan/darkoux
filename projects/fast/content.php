@@ -7,7 +7,7 @@
 	<div class="container project-info quote-big">
 		<div class="row">
 			<div class="col-xs-12">
-				<p>Split-second photo sharing with friends and family. This is an early-stage product I am building on my own.</p>
+				<p>Split-second photo sharing with friends and family. This is an early-stage product I <s>am</s> was building on my own.</p>
 			</div>
 		</div>
 	</div><!-- /Project Info  -->
@@ -26,7 +26,7 @@
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<h3>Lean Startup</h3>
-				<p>It is exciting to explore areas previously beyond my reach: UVP, early adopters, monetization, growth...</p>
+				<p>It is exciting to explore areas previously beyond my UX reach: UVP, early adopters, monetization, growth...</p>
 			</div>
 		</div>
 	</div><!-- /Project Info  -->

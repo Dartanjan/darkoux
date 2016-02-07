@@ -7,7 +7,7 @@
 	<div class="container project-info quote-big">
 		<div class="row">
 			<div class="col-xs-12">
-				<p>A tale of information architecture, wireframes and a failed process of building a product that never came to life.</p>
+				<p>Gift Connect was an MVP for an ad platform. My job was to work with Belgrade team to create information architecture and wireframes, for the team to better estimate the scope of the project.</p>
 			</div>
 		</div>
 	</div><!-- /Project Info  -->
@@ -31,7 +31,7 @@
 	<div class="container-fluid project-advice">
 		<div class="row">
 			<div class="col-xs-12">
-				<h2>Don't spend three months on "The Spec" document and detailed wireframes. Instead, spend half that time finding problem/solution and product/market fit. You will achieve <strong>much more</strong>.</h2>
+				<h2>Don't spend three months on "The Spec" document and detailed wireframes. Instead, spend half that time finding problem/solution and product/market fit, through rapid prototyping and customer development, design thinking or Jobs to be Done processes &ndash; either one will be really helpful.</h2>
 			</div>
 		</div>
 	</div><!-- /Process  -->
