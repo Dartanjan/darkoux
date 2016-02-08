@@ -2,7 +2,7 @@
 
 const SITE_URL = "http://darkoux.com/";
 const SITE_ROOT = __DIR__;
-const PROJECTS = array(
+$projects = array(
 	'keepy',
 	'citizenshipper', 
 	'giftconnect', 
@@ -17,7 +17,7 @@ $bodyClass = "page-landing";
 
 if(array_key_exists('project', $_GET)) {
 	$project = $_GET['project'];
-	if(! in_array($project, PROJECTS)) {
+	if(! in_array($project, $projects)) {
 		header("Location: " . SITE_URL);
 		die();
 	}
