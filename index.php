@@ -3,7 +3,6 @@
 const SITE_URL = "http://darkoux.com/";
 const SITE_ROOT = __DIR__;
 $projects = array(
-	'keepy',
 	'citizenshipper', 
 	'giftconnect', 
 	'buzzit', 

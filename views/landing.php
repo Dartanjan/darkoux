@@ -40,12 +40,6 @@
 	<div class="container gallery showme-wrap" data-treshold="200" data-delay="150">
 		<div class="row">
 			<div class="projects-wrap">
-				<div class="project col-xs-12 col-md-4 showme">
-					<figure class="card">
-						<a href="/?project=keepy"><img src="/projects/keepy/keepy-thumb.png" alt="Keepy"></a>
-						<figcaption><h3><a href="/?project=keepy">Keepy</a> <small>IA, Prototyping, UI Design</small></h3></figcaption>
-					</figure>
-				</div>
 				<div class="project col-xs-12 col-md-4">
 					<figure class="card">
 						<a href="/?project=citizenshipper"><img src="/projects/citizenshipper/cs-thumb.jpg" alt="CitizenShipper"></a>
